@@ -357,7 +357,7 @@ padding-top: 9px;
     width: 100%;
     display: flex;
     justify-content: center;
-    position: relative;
+   
     flex-wrap: wrap;
 }
 .islook{
@@ -408,6 +408,7 @@ cursor: pointer;
 }
 .iscenter2{
     width: 85%;
+    position: relative;
 }
 .iscenter2 img{
     width: 100%;
@@ -433,10 +434,13 @@ font-size: 18px;
 line-height: 30px;
 color: #6E6E6E;
 }
-.isfoto2{
+.isthe{
+    padding-top: 400px;
+}
+.isfoto2 img{
     position: absolute;
-    width: 85%;
-   top: 62%;
+
+   top: -43%;
 
 }
 .XM-resource .XM-center .XM-resource-item .XM-news{
@@ -688,6 +692,8 @@ color: #6E6E6E;
 }
 .conteiner{
     width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .ycentr{
     width: 85%;
@@ -833,6 +839,8 @@ transition: all 0.7s ease;
     color: #F0ECE8;
 }
 .fourpart{
+    padding-bottom: 100px;
+    width: 100%;
     padding-top: 200px;
     background: #FEF9F2;
 }
