@@ -30,6 +30,11 @@
     width: 85%;
 }
 .kh-navbar{
+    position: fixed;
+    top: 0;
+    width: 85%;
+    z-index: 3;
+    backdrop-filter: blur(6px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -563,7 +568,7 @@ color: #090909;
 }
 .XM-footer{
     background: #FEF9F2;
-   
+    width: 100%;
 
 }
 /* .XM-thropy{
