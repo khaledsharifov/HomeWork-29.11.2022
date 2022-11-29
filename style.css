@@ -1,72 +1,8 @@
-
-.iscontainer1{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.iscenter1{
-width: 85%;
-}
-.istake{
-    display: flex;
-    justify-content: space-between;
-    padding: 200px 0px;
-}
-.isleft1 h3{
-font-family: 'DM Sans';
-font-weight: 400;
-font-size: 20px;
-line-height: 22px;
-letter-spacing: 1.2px;
-text-transform: uppercase;
-color: #FF9C08;
-}
-.isleft1 h1{  
-font-family: 'Roboto';
-font-weight: 700;
-font-size: 42px;
-line-height: 58px;
-color: #090909;
-padding: 20px 0px 28px 0px;
-}
-.isleft1{
-    padding-top: 88px ;
-}
-.isicon{
-    display: flex;
-   justify-content: space-between;
-    padding-bottom: 30px;
-    gap: 150px;
-}
-.ischap{
-    display: flex;
-    gap: 16px;
-}
-.islike h2{
-font-family: 'Roboto';
-font-weight: 700;
-font-size: 38px;
-line-height: 44px;
-color: #090909;
-}
-.islike p{
-font-family: 'DM Sans';
-font-weight: 400;
-font-size: 18px;
-line-height: 20px;
-color: #6E6E6E;
-padding-top: 9px;
-}
-.isbutt{
-    margin-top: 77px;
-}
-.isbutt button{
-    padding: 23px 38px 28px 38px;
-    border-radius: 10px;
-    font-family: 'DM Sans';
-
+*{
+    padding: 0;
     margin: 0;
 }
+
 .kh-container{  
     display: flex;
     justify-content: center;
@@ -199,30 +135,7 @@ text-align: center;
 color: #090909;
 cursor: pointer;
 }
-.isbutt button:hover{
-    background: #FF9C08;
-}
 
-.iscontainer2{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    flex-wrap: wrap;
-}
-.islook{
-    width: 100%;
-    background: #FFD4A4;
-    padding: 198px 0px 398px 0px;
-}
-.islook p{
-font-family: 'DM Sans';
-font-weight: 400;
-
-background: none;
-text-align: center;
-color: #000000;
-}
 .kh-left1 button:hover{
     background: #FF9C08;
 }
@@ -365,6 +278,101 @@ text-transform: uppercase;
 
 color: #090909;
 }
+
+.iscontainer1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.iscenter1{
+width: 85%;
+}
+.istake{
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 0px;
+}
+.isleft1 h3{
+font-family: 'DM Sans';
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+color: #FF9C08;
+}
+.isleft1 h1{  
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 42px;
+line-height: 58px;
+color: #090909;
+padding: 20px 0px 28px 0px;
+}
+.isleft1{
+    padding-top: 88px ;
+}
+.isicon{
+    display: flex;
+   justify-content: space-between;
+    padding-bottom: 30px;
+    gap: 150px;
+}
+.ischap{
+    display: flex;
+    gap: 16px;
+}
+.islike h2{
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 38px;
+line-height: 44px;
+color: #090909;
+}
+.islike p{
+font-family: 'DM Sans';
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: #6E6E6E;
+padding-top: 9px;
+}
+.isbutt{
+    margin-top: 77px;
+}
+.isbutt button{
+    padding: 23px 38px 28px 38px;
+    border-radius: 10px;
+    font-family: 'DM Sans';
+
+    margin: 0;
+}
+.isbutt button:hover{
+    background: #FF9C08;
+}
+
+.iscontainer2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+.islook{
+    width: 100%;
+    background: #FFD4A4;
+    padding: 198px 0px 398px 0px;
+}
+.islook p{
+font-family: 'DM Sans';
+font-weight: 400;
+
+background: none;
+text-align: center;
+color: #000000;
+}
 .islook h1{
     font-family: 'Roboto';
     font-weight: 700;
@@ -430,10 +438,6 @@ color: #6E6E6E;
     width: 85%;
    top: 62%;
 
-}
-
-color: #FF9C08;
-padding-top: 200px;
 }
 .XM-resource .XM-center .XM-resource-item .XM-news{
     padding-left: 230px;
@@ -550,9 +554,11 @@ color: #090909;
    }
 .XM-resource{
     padding-bottom: 200px;
+   
 }
 .XM-footer{
     background: #FEF9F2;
+   
 
 }
 /* .XM-thropy{
@@ -600,6 +606,7 @@ color: #3F3F3F;
     display: flex;
     gap: 65px;
     padding-bottom: 110px;
+    position: relative;
 }
 .XM-join{
     background: #FF9C08;
@@ -608,17 +615,11 @@ border-radius: 14px;
    justify-content: center;
    align-items: center; 
    padding: 0px 78px 0px 80px;
-}
-.XM-join .XM-join-item{
-  
-}
+}   
 .XM-join .XM-join-item h1{
     font-weight: 700;
 font-size: 19px;
 line-height: 34px;
-/* or 142% */
-
-
 color: #090909;
  }
  .XM-join .XM-join-item button{
