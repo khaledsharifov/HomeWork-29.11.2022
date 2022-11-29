@@ -1,5 +1,166 @@
-*{
-    padding: 0;
+
+.iscontainer1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.iscenter1{
+width: 85%;
+}
+.istake{
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 0px;
+}
+.isleft1 h3{
+font-family: 'DM Sans';
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+color: #FF9C08;
+}
+.isleft1 h1{  
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 42px;
+line-height: 58px;
+color: #090909;
+padding: 20px 0px 28px 0px;
+}
+.isleft1{
+    padding-top: 88px ;
+}
+.isicon{
+    display: flex;
+   justify-content: space-between;
+    padding-bottom: 30px;
+    gap: 150px;
+}
+.ischap{
+    display: flex;
+    gap: 16px;
+}
+.islike h2{
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 38px;
+line-height: 44px;
+color: #090909;
+}
+.islike p{
+font-family: 'DM Sans';
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: #6E6E6E;
+padding-top: 9px;
+}
+.isbutt{
+    margin-top: 77px;
+}
+.isbutt button{
+    padding: 23px 38px 28px 38px;
+    border-radius: 10px;
     font-family: 'DM Sans';
-    margin: 0;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+color: #090909;
+cursor: pointer;
+}
+.isbutt button:hover{
+    background: #FF9C08;
+}
+
+.iscontainer2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+.islook{
+    width: 100%;
+    background: #FFD4A4;
+    padding: 198px 0px 398px 0px;
+}
+.islook p{
+font-family: 'DM Sans';
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+color: #090909;
+}
+.islook h1{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58px;
+    text-align: center;
+    color: #090909;   
+    padding: 20px 0px 39px 0px; 
+}
+.islook .isbutt2{
+    display: flex;
+  justify-content: center;
+    gap: 28px;
+}
+.isbutt2 button{
+   padding: 26px 29px; 
+font-family: 'DM Sans';
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+color: #090909;
+border: none;
+background: #FFFFFF;
+border: 1px solid #F0ECE8;
+box-shadow: 0px 4px 10px rgba(43, 43, 43, 0.04);
+border-radius: 10px;
+cursor: pointer;
+}
+.isbutt2 button:hover{
+    background: #090909;
+    color: white;
+}
+.iscenter2{
+    width: 85%;
+}
+.iscenter2 img{
+    width: 100%;
+}
+ 
+.isgoal{
+    display: flex;
+    justify-content: space-between;
+    padding:80px 0px 196px 0px;
+}
+.isthe h1{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #090909;  
+    padding-bottom: 11px;  
+}
+.isthe p{
+font-family: 'DM Sans';
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #6E6E6E;
+}
+.isfoto2{
+    position: absolute;
+    width: 85%;
+   top: 62%;
+
 }
